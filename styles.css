@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Encabezado*/
+
+header{
+    background: rgb(9, 9, 184);
+}
+
+.imghead{
+    width: 250px;
+    padding: 20px;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 130px;
+    right: 0;
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+
+}
+
+/*main*/
+
+main{
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+#cifrado{
+    text-align: center;
+}
+
+.padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}

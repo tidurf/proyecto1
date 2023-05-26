@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <h1><img src="imagenes/channels4_profile.jpg" class="imghead"></h1>
+            <nav>
+                <ul>
+                    <li>Challenge: Encriptador Alura LATAM</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+
+        <label for="cifrado">Ingrese el texto a Cifrar o Desifrar!</label>
+        <input type="text" id="cifrado" class="padron">
+
+
+        <textarea name="resultado" id="decifrado" cols="30" rows="10" class="padron"></textarea>
+        <button  type="button" id="botoncifrar">Cifrado</button>
+        <button  type="button" id="botondecifrar">Desifrado</button>
+        <button  type="button" id="botonCopiar">Copiar</button>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    
+    
+</body>
+<script>
+    var btn = document.querySelector("#botoncifrar");
+    btn.onclick = encriptar;
+    var btn2 = document.querySelector("#botondecifrar");
+    btn2.onclick = desencriptar;
+    var btn3 = document.querySelector("#botonCopiar");
+    btn3.onclick = copiar;
+</script>
+</html>
